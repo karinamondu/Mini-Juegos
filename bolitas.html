@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://code.jquery.com/jquery-3.6.3.js" integrity="sha256-nQLuAZGRRcILA+6dMBOvcRh5Pe310sBpanc6+QBmyVM=" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+    <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.js"></script>
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.13.2/themes/trontastic/jquery-ui.css">
+    <script type="text/javascript"src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
+
+    
+    <link rel="stylesheet" type="text/css" href="PELOTAS.CSS"/>
+
+    <title>PELOTAS</title>
+</head>
+<body>
+<header class="head">
+<nav class="topnav">
+<h1> PELOTAS</h1>
+</div>
+
+</div>
+
+
+</nav>
+</header>
+<section>
+
+    <div id class="minicont">
+      
+     <input id="Hugo" type="button" value="Mover" name="boton1" />
+    </br>
+    <input id="paco" type="button" value="BOLA  1" name="boton2" />
+
+    <input id="luis" type="button" value="BOLA 2" name="boton3" />
+</br>
+</br>
+      
+ </div>                      
+
+
+
+<div class ="area">
+
+<div class= "col -sm-10">
+    <div  id="contenedor4" class="contenedor4"></div>
+</div>
+
+<div class= "col -sm-10">
+    <div  id="contenedor2" class="contenedor2"></div>
+</div>
+<div class= "col -sm-10">
+    <div  id="contenedor3"class="contenedor3"></div>
+
+</div>
+
+
+
+
+
+
+</section>  
+<footer>
+
+<H2>Indicaciones:</H2>
+<p> Presiona el botón para lanzar las pelotas</p>
+</footer>
+
+
+
+   
+   </script>
+   
+
+<script type="text/javascript">
+
+    $("footer").css({"border-raduis":"80","height":80});
+    $("button").css({"border-raduis":"80"});
+    $("#Hugo").css({"border-raduis":80,});
+    $("#Hugo").css({"width":80,"height":30, "background-color":"#15beb0"});
+    $("#Hugo").css({"font-family":"verdana"});
+    $("#paco").css({"border-raduis":80,});
+    $("#paco").css({"width":80,"height":30, "background-color":"#15beb0"});
+    $("#paco").css({"font-family":"verdana"});
+    $("#luis").css({"border-raduis":80,});
+    $("#luis").css({"width":80,"height":30, "background-color":"#15beb0"});
+    $("#luis").css({"font-family":"verdana"});
+    $("#dante").css({"border-raduis":80,});
+    $("#dante").css({"width":80,"height":30, "background-color":"#15beb0"});
+    $("#dante").css({"font-family":"verdana"});
+
+  </script>
+
+<script type="text/javascript">
+
+</script>
+
+
+<script type="text/javascript">
+
+
+
+
+
+
+
+    $("#paco").click(function(){
+    
+    $("#contenedor2").animate({
+    top:"-=120px",
+    width: 100,
+    height:600
+    },1000,"easeOutBounce");
+    
+    });
+    
+    $("#Hugo").click(function(){
+    
+ $("#contenedor4").animate({
+  
+  right:"+=100px",
+  width: -10,
+  height:100
+  });
+    
+ });
+    
+
+
+    $("#luis").click(function(){
+    
+    $("#contenedor3").animate({
+    top:"-=0px",
+    width: 100,
+    height:600
+    },1000,"easeOutBounce");
+    
+    });
+    
+    
+    $("#dante").click(function(){
+    
+    $("#contenedor4").animate({
+      right:"-=120px",
+    width: 100,
+    height:600
+    },1000,"easeOutBounce");
+    
+    });
+    
+</script>
+
+
+</body>
+</html>

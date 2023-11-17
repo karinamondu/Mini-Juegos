@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://code.jquery.com/jquery-3.6.3.js" integrity="sha256-nQLuAZGRRcILA+6dMBOvcRh5Pe310sBpanc6+QBmyVM=" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+    <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.js"></script>
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.13.2/themes/trontastic/jquery-ui.css">
+    <script type="text/javascript"src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+
+    
+    <link rel="stylesheet" type="text/css" href="toru.Stylie.css"/>
+
+    <title>Totuga</title>
+</head>
+<body>
+    <script src="hipo.js"></script>
+<header class="head">
+<nav class="topnav">
+
+<h1> Tortuguita</h1>
+</div>
+
+</div>
+
+
+</nav>
+</header>
+<section>
+
+    <div id class="minicont">
+      
+        <button id="Hugo">Adelante </button>
+
+        </br>
+            <button id="paco">atras </button>
+
+       </br>
+       <button id="luis">arriba </button>
+
+        </br>  
+        <button id="dante">abajo </button>
+      
+ </div>                      
+
+    <div id="contenedor" class="contenedor">
+
+
+
+</div>
+</section>  
+<footer>
+
+<H2>Indicaciones:</H2>
+<p> mueve la tortuga con los  botones </p>
+</footer>
+
+
+
+   
+   </script>
+   
+
+<script type="text/javascript">
+
+    $("footer").css({"border-raduis":"80","height":80});
+    $("button").css({"border-raduis":"80"});
+    $("#Hugo").css({"border-raduis":80,});
+    $("#Hugo").css({"width":80,"height":30, "background-color":"#15beb0"});
+    $("#Hugo").css({"font-family":"verdana"});
+    $("#paco").css({"border-raduis":80,});
+    $("#paco").css({"width":80,"height":30, "background-color":"#15beb0"});
+    $("#paco").css({"font-family":"verdana"});
+    $("#luis").css({"border-raduis":80,});
+    $("#luis").css({"width":80,"height":30, "background-color":"#15beb0"});
+    $("#luis").css({"font-family":"verdana"});
+    $("#dante").css({"border-raduis":80,});
+    $("#dante").css({"width":80,"height":30, "background-color":"#15beb0"});
+    $("#dante").css({"font-family":"verdana"});
+
+  </script>
+
+<script type="text/javascript">
+
+	
+
+
+
+
+
+$("#Hugo").click(function(){
+
+$("#contenedor").animate({
+left:"-=120px",
+width: 500,
+height:100
+});
+
+});
+
+
+$("#paco").click(function(){
+$("#contenedor").animate({
+  
+right:"+=100px",
+width: 100,
+height:100
+});
+
+});
+
+
+
+
+
+
+
+$("#dante").click(function(){
+
+$("#contenedor").animate({
+top:"-=100px",
+width: 150,
+height:80
+});
+
+});
+
+
+$("#luis").click(function(){
+
+$("#contenedor").animate({
+top:"+=120px",
+width: 150,
+height: 800
+});
+
+});
+
+
+
+
+
+
+  </script>
+
+
+
+
+</body>
+</html>
